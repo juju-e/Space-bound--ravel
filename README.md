@@ -2,7 +2,7 @@
 Space bound computation task
 If we change the ordering of i and j in the looping(i, j to j, i) we get this plot:<br>
 ![](img/plot.png)<br>
-As you can see the time taken by the original for loop is much more than the time taken by the swapped one...
+As you can see the time taken by the original for loop is much more than the time taken by the swapped one but just by 4 seconds on the 500x500 matrix for example...
 ## What is ravel?
 Ravel is a numpy function that returns a flattened(flattened means it goes back as a 1d array) array in 'C' style order or in 'fortran' style order
 ## what is row major ordering?
