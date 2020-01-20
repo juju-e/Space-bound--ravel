@@ -20,5 +20,11 @@ And here is the image representation for you to get an idea of it:<br>
 ![](img/im1.png)<br>
 ## what is column major ordering
 Row major ordering is when a matrice is ordered in 'fortran' style order with  the first index changing fastest, and the last index changing slowest, you can think of it as a matrix and you start by first ordering the first column and so on until the last one.
+```
+>>> import numpy as np
+>>> i=[[1,2,3],[0,4,6],[1,8,4]]
+>>> np.ravel(i,order='F')
+[1,0,1,2,4,8,3,6,4]  
+```
 And here is another image illustration:<br>
 ![](img/im2.png)
