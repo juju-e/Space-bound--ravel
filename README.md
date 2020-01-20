@@ -19,7 +19,7 @@ You can think of it as a matrix and you start by first ordering the first row an
 And here is the image representation for you to get an idea of it:<br>
 ![](img/im1.png)<br>
 ## what is column major ordering
-Row major ordering is when a matrice is ordered in 'fortran' style order with  the first index changing fastest, and the last index changing slowest, you can think of it as a matrix and you start by first ordering the first column and so on until the last one.
+Column major ordering is when a matrice is ordered in 'fortran' style order with  the first index changing fastest, and the last index changing slowest, you can think of it as a matrix and you start by first ordering the first column and so on until the last one.
 ```
 >>> import numpy as np
 >>> i=[[1,2,3],[0,4,6],[1,8,4]]
